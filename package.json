@@ -1,6 +1,7 @@
 {
   "name": "steam_notificator",
   "version": "1.0.0",
+  "type": "module",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -10,6 +11,8 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.18.2"
+    "discord.js": "^14.11.0",
+    "dotenv": "^16.1.4",
+    "steam-user": "^4.28.5"
   }
 }
